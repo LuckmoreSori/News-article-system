@@ -10,7 +10,7 @@ const NewsBoard = () => {
   // Fetch articles from backend
   useEffect(() => {
     const fetchNews = async () => {
-      const url = "https://newsbackend-3.onrender.com/api/articles";
+      const url = "https://newsbackend-4.onrender.com/api/articles";
       try {
         const response = await fetch(url);
         const data = await response.json();
