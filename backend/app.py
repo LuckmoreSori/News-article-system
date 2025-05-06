@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 app = Flask(__name__)
-CORS(app, origins="http://localhost:5175")  # Allow frontend port
+CORS(app, origins="https://news-article-system.vercel.app/")  # Allow frontend port
 
 # Load your data
 data_path = os.path.join(os.path.dirname(__file__), 'article.csv')
